@@ -13,7 +13,7 @@ switch(color)
 }
 
 
-let age=59;
+let age=60;
 
 if(age<18)
 {
@@ -25,14 +25,14 @@ else if(age>=18 && age<=59)
     console.log("Eligible to vote")
 }
 
-else if(age>=60)
+else
 {
     console.log("Eligible (Senior Citizen)")
 }
 
 
 
-let side1=23;
+let side1=21;
 let side2=23;
 let side3=20;
 
@@ -48,13 +48,11 @@ else if(side1==side2 && side2!=side3){
     
 }
 
-else if(side1!=side2 && side2!=side3){
-   
-      console.log("Scalene")
-    
+else{
+    console.log("Scalene")
 }
 
-let number=-2;
+let number=0;
 
 if(number>0){
     console.log("Number is Positive")
@@ -64,7 +62,7 @@ else if(number<0){
     console.log("Number is Negative")
 }
 
-else if(number=0){
+else{
     console.log("Number is Zero")
 }
 
@@ -91,8 +89,36 @@ else if(mark>=30){
     console.log("Grade E")
 }
 
-else if(mark<30){
+else{
     console.log("Grade F")
+}
+
+
+let num=3;
+if(num%2==0){
+    console.log("Number is Even")
+}
+
+else{
+    console.log("Number is Odd")
+}
+
+
+let username="admin";
+let password=1234;
+
+if(username=="admin" && password==1234)
+{
+    console.log("Login Successfully")
+}
+
+else if(username=="admin" && password!=1234)
+{
+    console.log("Incorrect Password")
+}
+
+else{
+    console.log("Incorrect Username")
 }
 
 
