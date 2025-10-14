@@ -24,3 +24,5 @@ for(i=100; i>=0; i--)
     console.log(i);
 }
 
+let num=2025;
+
