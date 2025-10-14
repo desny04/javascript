@@ -132,6 +132,5 @@ while(i<=6)
         j++;
     }
     console.log(rows)
+    i++
 }
-
-
