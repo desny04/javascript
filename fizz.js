@@ -24,5 +24,14 @@ for(i=100; i>=0; i--)
     console.log(i);
 }
 
-let num=2025;
 
+let num = 2022, remainder, sumOfDigits=0;
+
+if(num%2==0)
+{
+    let revrse = num.toString().split('').reverse().join('');
+    console.log(revrse)
+}
+else{
+    console.log("Cant reverse")
+}
