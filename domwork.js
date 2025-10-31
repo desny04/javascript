@@ -8,8 +8,8 @@ button.addEventListener("click",(event)=>{
     let mark=document.getElementById("mark").value;
     let std=document.getElementById("std").value;
 
-    // let arr=[name,age,mark,std]
-    // console.log(arr)
+    let arr=[name,age,mark,std]
+    console.log(arr)
 
     document.getElementById("table").innerHTML+=`<tr>
         <td>${name}</td>
